@@ -1,0 +1,17 @@
+,,panCK,HER2,ER,PR,AR,PDL1+,aSMA,CD45,CD3,CD8a,CD4,CD68,CD163
+all,"Tumor, TN",pos,,,,,,,,,,,,
+all,MSC,,,,,,,pos,,,,,,
+all,"Immune, others",,,,,,,,anypos,anypos,anypos,anypos,anypos,anypos
+"Tumor, TN","Tumor, HER2+",,pos,,,,,,,,,,,
+"Tumor, TN","Tumor, ER+",,,pos,,,,,,,,,,
+"Tumor, TN","Tumor, PR+",,,,pos,,,,,,,,,
+"Tumor, TN","Tumor, ER+/PR+",,,allpos,allpos,,,,,,,,,
+"Tumor, TN","Tumor, HER2+/ER+",,allpos,allpos,,,,,,,,,,
+"Tumor, TN","Tumor, HER2+/PR+",,allpos,,allpos,,,,,,,,,
+"Tumor, TN","Tumor, HER2+/ER+/PR+",,allpos,allpos,allpos,,,,,,,,,
+"Immune, others","T, other",,,,,,,,,pos,,,,
+"T, other",CD8T,,,,,,,,,,pos,,,
+"T, other",Th,,,,,,,,,,,pos,,
+"Immune, others","Mph, CD68+/CD163+",,,,,,,,,,,,allpos,allpos
+"Immune, others","Mph, CD68+",,,,,,,,,,,,pos,
+"Immune, others","Mph, CD163+",,,,,,,,,,,,,pos
